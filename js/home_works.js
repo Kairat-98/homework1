@@ -131,4 +131,35 @@ startButton.addEventListener("click", startTimer);
 stopButton.addEventListener("click", stopTimer);
 resetButton.addEventListener("click", resetTimer);
 
-
+// homework-3
+// const tabsContentCards = document.querySelectorAll('.tab_content_block')
+// const tabsItems = document.querySelectorAll('.tab_content_item')
+// const tabsItemParent = document.querySelectorAll('.tab_content_items')
+//
+// const hideContentCards = () => {
+//     tabsContentCards.forEach((tabsContentCard) => {
+//         tabsContentCard.style.display = 'none'
+//     })
+//     tabsItems.forEach((tabsItem => {
+//         tabsItem.classList.remove('tab_content_item_active')
+//     }))
+// }
+//
+// const showTabs = (indexEL = 0) => {
+//     tabsContentCards[indexEL].style.display = 'block'
+//     tabItems[indexEL].classList.add('tab_content_item_active')
+// }
+//
+// hideContentCards()
+// showTabs()
+//
+// tabsItemParent.onclick = (e) => {
+//     if (e.target.classList.contains('tab_content_item')) {
+//         tabsItems.forEach((tabItem, tabItemIndex) => {
+//             if (e.target === tabItem) {
+//                 hideContentCards()
+//                 showTabs(tabItemIndex)
+//             }
+//         })
+//     }
+// }
